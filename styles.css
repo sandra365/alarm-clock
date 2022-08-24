@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: rgb(9, 5, 37);
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    color: white;
+}
+
+/* ---------- COMPONENTS ---------- */
+
+header {
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+button {
+    padding: 15px 25px;
+    border: none;
+    background: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+button:hover,
+button:focus {
+    background: #f4c845;
+    color: white;
+}
+
+/* ---------- TYPOGRAPHY ---------- */
+
+h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 54px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+/* ---------- STYLING ---------- */
+
+.alarm-clock-container {
+    width: 650px;
+    max-height: 900px;
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+.alarm-setter,
+.new-alarm-clock {
+    width: 650px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background: hotpink;
+}
+
+.time-input {
+    width: 140px;
+    height: 49px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.time-input:hover,
+.time-input:focus {
+    outline: none;
+}
+
+.new-alarm-clock {
+    margin-top: 25px;
+}
+
+.new-alarm-clock_par {
+    font-weight: 700;
+}
+
+.inverted {
+    background-color: #ff3131;
+}
+
+
+
+
