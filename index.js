@@ -245,31 +245,3 @@ function convertAlarmTimeToMs(alarmTime) {
     return(alarmTimeInMs);
 
 }
-
-
-
-//------------------------------------------------------------------------------------------------------------------------------------------------------
-
-//1. Making some proper styling ✅
-//2. add function that counts down to trigger alarm clock (next step) ✅
-//3. add snooze function on alarm when triggered ✅
-//4.add local storage ✅
-//5. add scroller for more than three alarms
-//maybe add real time clock on screen somewhere later
-//fix time correction calculation
-//turn off / cancel ✅
-//don't allow user to make more than one alarm for a specific time
-
-//return or draw init  menu
-
-//find the closest time matching uset input and set alarm to it
-//add repeat option (later)
-//add pm ama situation 
-
-
-//const collection = triggeredAlarm.children;
-    // Array.from(collection).forEach(child => {
-    //     if(child.getAttribute('id') === 'turn-off-alarm-btn') {
-    //         child.textContent = 'TURN OFF ALARM';
-    //     }
-    // });
