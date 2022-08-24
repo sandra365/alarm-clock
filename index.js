@@ -273,7 +273,3 @@ function convertAlarmTimeToMs(alarmTime) {
     //         child.textContent = 'TURN OFF ALARM';
     //     }
     // });
-
-
-
-    //1. Should I create repo on Github first?
